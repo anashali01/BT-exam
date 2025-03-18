@@ -18,6 +18,8 @@ border: 1px solid black;
 color: black;
 }
 /* hero section end */
+
+/* blog section start */
 .blog .card .card-title , .blog .card .card-footer a i{
     transition: 0.3s all ease-in-out;
 }
@@ -29,3 +31,4 @@ color: black;
     color: whitesmoke;
     border-radius: 50%;
 }
+/* blog section end */
