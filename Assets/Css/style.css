@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+
+/* hero section start */
+.hero .hero-content a{
+    transition: 0.3s all ease-in-out;
+}
+.hero .hero-content a:hover{
+background-color: transparent;
+border: 1px solid black;
+color: black;
+}
+/* hero section end */
+.blog .card .card-title , .blog .card .card-footer a i{
+    transition: 0.3s all ease-in-out;
+}
+.blog .card:hover .card-title{
+    color: green;
+}
+.blog .card:hover .card-footer a i{
+    background-color: red;
+    color: whitesmoke;
+    border-radius: 50%;
+}
